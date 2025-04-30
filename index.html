@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIGHT GOLD</title>
+    <link rel="stylesheet" href="rulih.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="najerul.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="logo.png" alt="Logo" style="height: 80px" />
+        </div>
+
+        <nav class="navbar">
+          <a href="#home">Beranda</a>
+          <a href="#products">Produk</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#gold-price">Harga Emas Hari Ini</a>
+          <a href="#recommendations">Rekomendasi</a>
+          <a href="#wishlist">Wishlist</a>
+          <a href="#help">Bantuan</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+
+        <div class="icon-right">
+          <a href="register.html">Login <i data-feather="user"></i></a>
+          <a href="#cart"><i data-feather="shopping-cart"></i></a>
+          <div id="menu-btn"><i data-feather="menu"></i></div>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <h1>Selamat Datang di LIGHT GOLD</h1>
+      <p>Temukan Perhiasan Mewah dan Elegan</p>
+      <a href="#products" class="btn">Lihat Produk</a>
+    </section>
+
+    <section id="gold-price" class="iklan">
+      <h2>Harga Emas Hari Ini</h2>
+      <p>Harga Emas: Rp 1.000.000 per gram</p>
+    </section>
+
+    <section id="products">
+      <h2>Produk Unggulan</h2>
+      <div class="product-container">
+        <div class="product-card">
+          <img src="emas batangan.jpg" alt="Emas Batangan 1 Gram" />
+          <h3>Emas Batangan 1 Gram</h3>
+          <p>Harga: Rp 1.000.000</p>
+          <button
+            class="buy-button"
+            data-product="Emas Batangan 1 Gram"
+            data-price="1000000"
+          >
+            Beli
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="cincin.webp" alt="Emas Cincin" />
+          <h3>Emas Cincin</h3>
+          <p>Harga: Rp 5.000.000</p>
+          <button
+            class="buy-button"
+            data-product="Emas cincin"
+            data-price="5000000"
+          >
+            Beli
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="kalung emas.jpg" alt="Kalung Emas" />
+          <h3>Kalung Emas</h3>
+          <p>Harga: Rp 3.000.000</p>
+          <button
+            class="buy-button"
+            data-product="Kalung Emas"
+            data-price="3000000"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="recommendations">
+      <h2>Rekomendasi untuk Anda</h2>
+      <p>
+        Jelajahi inspirasi dan keinginan yang cocok untuk Anda. Kami
+        merekomendasikan produk-produk berikut:
+      </p>
+      <div class="product-container">
+        <div class="product-card">
+          <img src="kobra brilian.jpg" alt="Cincin Berlian" />
+          <h3>Cincin Berlian</h3>
+          <p>Harga: Rp 10.000.000</p>
+          <button
+            class="buy-button"
+            data-product="Cincin Brilian"
+            data-price="10000000"
+          >
+            Beli
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="gelang emas.jpg" alt="Gelang Emas" />
+          <h3>Gelang Emas</h3>
+          <p>Harga: Rp 4.000.000</p>
+          <button
+            class="buy-button"
+            data-product="Gelang Emas"
+            data-price="4000000"
+          >
+            Beli
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="kalung brilian.jpg" alt="Kalung Berlian" />
+          <h3>Kalung Berlian</h3>
+          <p>Harga: Rp 8.000.000</p>
+          <button
+            class="buy-button"
+            data-product="Kalung Brilian"
+            data-price="8000000"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="wishlist">
+      <h2>Wishlist</h2>
+      <p>
+        Tambahkan produk favorit Anda ke wishlist untuk memudahkan pencarian di
+        lain waktu.
+      </p>
+      <div class="product-container">
+        <div class="product-card">
+          <img src="gelang brilian.avif" alt="Gelang Berlian" />
+          <h3>Gelang Berlian</h3>
+          <p>Harga: Rp 6.000.000</p>
+          <button class="buy-button">Tambahkan ke Wishlist</button>
+        </div>
+        <div class="product-card">
+          <img src="cincin emas 6gram.webp" alt="Cincin Emas" />
+          <h3>Cincin Emas</h3>
+          <p>Harga: Rp 7.000.000</p>
+          <button class="buy-button">Tambahkan ke Wishlist</button>
+        </div>
+        <div class="product-card">
+          <img src="kalung.webp" alt="Kalung Berlian" />
+          <h3>Kalung Berlian</h3>
+          <p>Harga: Rp 8.000.000</p>
+          <button class="buy-button">Tambahkan ke Wishlist</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="checkout">
+      <h2>Keranjang Belanja</h2>
+      <ul id="cart-items"></ul>
+      <p id="total-price">Total: Rp 0</p>
+    </section>
+
+    <section id="help">
+      <h2>Bantuan dan Feedback</h2>
+      <p>
+        Jika Anda memiliki pertanyaan atau butuh bantuan, silakan hubungi kami.
+        Kami siap membantu Anda!
+      </p>
+      <form id="feedback-form">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Kirim Feedback</button>
+      </form>
+    </section>
+
+    <section id="about">
+      <h2>Tentang Kami</h2>
+      <p>
+        Gerai The Palace merupakan mega store perhiasan dan one-stop solution
+        bagi para penggemar perhiasan.
+      </p>
+      <a href="#">Pelajari Lebih Lanjut</a>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 PT WIWO JAYA JAYA. Semua hak dilindungi.</p>
+    </footer>
+    <script>
+      feather.replace();
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuBtn = document.getElementById("menu-btn");
+        const navbar = document.querySelector(".navbar");
+        const cartItemsEl = document.getElementById("cart-items");
+        const totalPriceEl = document.getElementById("total-price");
+        let cart = [];
+        let total = 0;
+
+        menuBtn.addEventListener("click", function () {
+          navbar.classList.toggle("show");
+        });
+
+        document.querySelectorAll(".buy-button").forEach((button) => {
+          button.addEventListener("click", () => {
+            const name = button.getAttribute("data-product");
+            const price = parseInt(button.getAttribute("data-price"));
+            cart.push({ name, price });
+            total += price;
+            updateCart();
+          });
+        });
+
+        function updateCart() {
+          cartItemsEl.innerHTML = "";
+          cart.forEach((item, index) => {
+            const li = document.createElement("li");
+            li.textContent = `${index + 1}. ${
+              item.name
+            } - Rp ${item.price.toLocaleString("id-ID")}`;
+            cartItemsEl.appendChild(li);
+          });
+          totalPriceEl.textContent = `Total: Rp ${total.toLocaleString(
+            "id-ID"
+          )}`;
+        }
+
+        // Scroll ke checkout saat klik ikon keranjang
+        document
+          .querySelector("a[href='#cart']")
+          .addEventListener("click", (e) => {
+            e.preventDefault();
+            document
+              .getElementById("checkout")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+      });
+    </script>
+  </body>
+</html>
