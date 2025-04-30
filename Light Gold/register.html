@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pendaftaran</title>
+    <link rel="stylesheet" href="register 2.css">
+    <script src="register 3.js" defer></script>
+</head>
+<body>
+    <div class="register-container">
+        <h2>Daftar Akun Baru</h2>
+        <form id="registration-form" onsubmit="return validateForm()">
+            <input type="text" id="first-name" placeholder="Nama Depan" required>
+            <input type="text" id="last-name" placeholder="Nama Belakang" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Kata Sandi" required>
+            <input type="password" id="confirm-password" placeholder="Konfirmasi Kata Sandi" required>
+            <button type="submit">Daftar</button>
+        </form>
+        <div id="error-message" class="error"></div>
+        <p>Sudah punya akun? <a href="login.html">Login di sini</a></p>
+    </div>
+</body>
+</html>
